@@ -18,7 +18,7 @@ public class problem2 {
 			for (int i = 100; i <= 500; i++) {
 				
 				// test if number is divisible by 5 and 6
-				if (i % 5 == 0 || i % 7 == 0) {
+				if (i % 5 == 0 ^ i % 7 == 0) { // JA
 					count++;	// increment count
 					
 					// Test if numbers per line is 10 

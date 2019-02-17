@@ -7,6 +7,7 @@
 // how to know if prime number: number divided by one or itself
 // see to divide by another number. (2, 3, 4, 5, etc)
 
+// JA: NOt sure I understand this
 public class problem4 {
 
 	public static void main(String[] args) {
