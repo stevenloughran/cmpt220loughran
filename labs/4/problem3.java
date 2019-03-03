@@ -28,7 +28,8 @@ public class problem3 {
 	public static String reverse(String word) {
 		String temp = " ";
 		for (int i= word.length() - 1 ; i >= 0 ;i--) {
-			temp = temp + word.charAt(i); }
+			temp = temp + word.charAt(i); 
+		}
 		return temp;
 	}
 		
@@ -38,12 +39,13 @@ public class problem3 {
 		for	(int i = 0 ; i < word.length(); i++) {
 			if (word.charAt(i) != S_reversed.charAt(i)) {
 				flag = 0;
-				break; }
+				break; 
+			}
 		}	
 		if (flag == 0) {
-		return false;
+			return false;
 		} else {
-		return true;
-				}
+			return true;
 		}
+	}
 }
