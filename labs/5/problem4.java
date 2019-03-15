@@ -18,6 +18,8 @@ public class problem4 {
 		
 		System.out.print("Enter first array: ");
 		int first = input.nextInt();
+		
+		// JA: You need to read each element of the arrays
 		int [] x  = new int [first];
 		
 		System.out.print("Enter second array: ");
@@ -31,6 +33,7 @@ public class problem4 {
 		}
 	}
 
+	// JA: The values might not be in the same order
 	public static boolean equal(int[] x, int[] y) {
 	 	if(x == y){
 	        return true;

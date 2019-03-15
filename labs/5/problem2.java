@@ -47,6 +47,6 @@ public class problem2 {
 
 		for (int i = 0; i < x.length; i++)
 			squareDiff += (x[i] - mean) * (x[i] - mean);
-		return Math.sqrt(squareDiff / x.length);
+		return Math.sqrt(squareDiff / (x.length - 1)); // JA
 		}
 	}
