@@ -41,6 +41,7 @@ public class Triangle extends GeometricObject{
 	System.out.println("Is triangle filled? " + tt.isFilled());
 	
 	}
+
 	public Triangle(double s1, double s2, double s3) {
 		side1 = s1;
 		side2 = s2;
@@ -58,7 +59,7 @@ public class Triangle extends GeometricObject{
 	double getarea() {
 		double s = (side1 + side2 + side3) / 2;
 		double area = s * (s - side1) * (s - side2) * (s - side3);
-			return area;
+			return Math.sqrt(area);
 	}
 	
 	double getperimeter() {

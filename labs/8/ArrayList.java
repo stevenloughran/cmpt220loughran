@@ -21,6 +21,7 @@ public class ArrayList {
 			System.out.println(list.toString());
 		}
 
+		// JA: You were supposed to write the algorithm
 		public static void sort(ArrayList<Integer> list) {
 			java.util.Collections.sort(list);		
 		}

@@ -33,6 +33,7 @@ public class helloTest4 {
 		input.close();
 		output.close();
 		
+		// JA: You don't have to do this. Just rename the file
 		File newSource = new File("temp.txt");
 		File overriteFile = new File(args[1]);
 		

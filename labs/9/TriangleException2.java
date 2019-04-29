@@ -22,7 +22,7 @@ public class TriangleException2 {
 				(side1 + side3) < side2)
 				throw new IllegalTriangleException2();
 		}
-		catch (IllegalTriangleException2 ex) {
+		catch (IllegalTriangleException2 ex) { // JA: You shouldn't castch it here
 			System.out.println(ex);
 		}
 	}
